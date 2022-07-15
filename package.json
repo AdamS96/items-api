@@ -1,7 +1,6 @@
 {
   "name": "db_api",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,7 +8,19 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "devDependencies": {
     "json-server": "^0.17.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdamS96/items-api.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/AdamS96/items-api/issues"
+  },
+  "homepage": "https://github.com/AdamS96/items-api#readme",
+  "dependencies": {
+    "json-server": "0.17.0"
   }
 }
